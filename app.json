@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/food/food",
+    "pages/food2/food2",
+    "pages/address/address",
+    "pages/cart/cart",
+    "pages/pay/pay",
+    "pages/mycomment/mycomment",
+    "pages/myOrder/myOrder",
+    "pages/myAddress/myAddress",
+    "pages/me/me",
+    "pages/paihao/paihao",
+    "pages/admin/admin",
+    "pages/adminHouchu/adminHouchu",
+    "pages/adminPaihao/adminPaihao",
+    "pages/myAddress/edit"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#4b5cc4",
+    "navigationBarTitleText": "点餐小程序",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "borderStyle": "white",
+    "list": [{
+        "selectedIconPath": "image/tab1-ok.png",
+        "iconPath": "image/tab1.png",
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "image/tab2-ok.png",
+        "iconPath": "image/tab2.png",
+        "pagePath": "pages/cart/cart",
+        "text": "购物车"
+      },
+      {
+        "selectedIconPath": "image/tab3-ok.png",
+        "iconPath": "image/tab3.png",
+        "pagePath": "pages/me/me",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "导航需要"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

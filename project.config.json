@@ -1,0 +1,163 @@
+{
+    "cloudfunctionRoot": "cloud/",
+    "description": "项目配置文件",
+    "packOptions": {
+        "ignore": []
+    },
+    "setting": {
+        "urlCheck": false,
+        "es6": true,
+        "enhance": false,
+        "postcss": true,
+        "preloadBackgroundData": false,
+        "minified": false,
+        "newFeature": true,
+        "coverView": true,
+        "nodeModules": false,
+        "autoAudits": false,
+        "showShadowRootInWxmlPanel": true,
+        "scopeDataCheck": false,
+        "uglifyFileName": false,
+        "checkInvalidKey": true,
+        "checkSiteMap": true,
+        "uploadWithSourceMap": true,
+        "compileHotReLoad": false,
+        "lazyloadPlaceholderEnable": false,
+        "useMultiFrameRuntime": true,
+        "useApiHook": true,
+        "useApiHostProcess": true,
+        "babelSetting": {
+            "ignore": [],
+            "disablePlugins": [],
+            "outputPath": ""
+        },
+        "useIsolateContext": false,
+        "userConfirmedBundleSwitch": false,
+        "packNpmManually": false,
+        "packNpmRelationList": [],
+        "minifyWXSS": true,
+        "disableUseStrict": false,
+        "minifyWXML": true,
+        "showES6CompileOption": false,
+        "useCompilerPlugins": false,
+        "ignoreUploadUnusedFiles": true
+    },
+    "compileType": "miniprogram",
+    "libVersion": "2.20.0",
+    "appid": "wx578b664a4a826861",
+    "projectname": "%E7%82%B9%E9%A4%90%E5%B0%8F%E7%A8%8B%E5%BA%8F",
+    "debugOptions": {
+        "hidedInDevtools": []
+    },
+    "isGameTourist": false,
+    "simulatorType": "wechat",
+    "simulatorPluginLibVersion": {},
+    "cloudfunctionTemplateRoot": "cloudfunctionTemplate",
+    "condition": {
+        "plugin": {
+            "list": []
+        },
+        "game": {
+            "list": []
+        },
+        "gamePlugin": {
+            "list": []
+        },
+        "miniprogram": {
+            "list": [
+                {
+                    "id": 1,
+                    "name": "我的订单",
+                    "pathName": "pages/myOrder/myOrder",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "id": 1,
+                    "name": "首页",
+                    "pathName": "pages/index/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "id": 3,
+                    "name": "我的评价",
+                    "pathName": "pages/mycomment/mycomment",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/food/food",
+                    "pathName": "pages/food/food",
+                    "query": "tableNum=1",
+                    "scene": null
+                },
+                {
+                    "name": "pages/pay/pay",
+                    "pathName": "pages/pay/pay",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "id": 5,
+                    "name": "pages/admin/admin",
+                    "pathName": "pages/admin/admin",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "id": -1,
+                    "name": "pages/change/change",
+                    "pathName": "pages/change/change",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "id": -1,
+                    "name": "pages/mycomment/mycomment",
+                    "pathName": "pages/mycomment/mycomment",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "id": -1,
+                    "name": "pages/me/me",
+                    "pathName": "pages/me/me",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "id": -1,
+                    "name": "pages/paihao/paihao",
+                    "pathName": "pages/paihao/paihao",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/adminHouchu/adminHouchu",
+                    "pathName": "pages/adminHouchu/adminHouchu",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/adminPaihao/adminPaihao",
+                    "pathName": "pages/adminPaihao/adminPaihao",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/food2/food2",
+                    "pathName": "pages/food2/food2",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/pay2/pay2",
+                    "pathName": "pages/pay2/pay2",
+                    "query": "",
+                    "scene": null
+                }
+            ]
+        }
+    }
+}
